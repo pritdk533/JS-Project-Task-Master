@@ -18,7 +18,18 @@ NOTE DETAILS ABOUT EVENT LISTENER : When we add an event listener using addEvent
 5.Executing Callbacks==> Once the call stack is empty, the event loop transfers the first callback function from the queue to the call stack. This process is done one callback at a time, ensuring that each function executes fully before the next one begins.
 
 
-NOTE DETAIL ABOUT LOCAL STORAGE: 
+NOTE DETAIL ABOUT LOCAL STORAGE: Local Storage is a web storage mechanism that allows you to store key-value pairs in a web browser. Unlike cookies, local storage can store a larger amount of data (typically 5-10MB per origin) and does not send data to the server with each HTTP request. Data stored in local storage persists even after the browser is closed and reopened.
+
+Features of Local Storage:
+Persistence: Data remains until explicitly deleted.
+Scope: Data is specific to the domain that created it.
+Storage Limit: Generally around 5MB per origin.
+
+Methods:
+setItem(key, value): Stores data.
+getItem(key): Retrieves data.
+removeItem(key): Removes data.
+clear(): Clears all storage.
 */
 
 document.addEventListener("DOMContentLoaded", () => {
