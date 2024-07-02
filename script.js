@@ -17,6 +17,8 @@ NOTE DETAILS ABOUT EVENT LISTENER : When we add an event listener using addEvent
 4.Callback Queue ==> The callback function from the event listener is placed in the callback queue when the event occurs.
 5.Executing Callbacks==> Once the call stack is empty, the event loop transfers the first callback function from the queue to the call stack. This process is done one callback at a time, ensuring that each function executes fully before the next one begins.
 
+
+NOTE DETAIL ABOUT LOCAL STORAGE: 
 */
 
 document.addEventListener("DOMContentLoaded", () => {
