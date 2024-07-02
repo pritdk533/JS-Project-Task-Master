@@ -1,5 +1,7 @@
 # ***Task Master Project Web Application*** Using ***JavaScript | CSS3| HTML5***
 
+![Master Task Project Screenshot](https://github.com/pritdk533/JS-Project-Task-Master/blob/main/assests/images/Master%20task%20Project%20SS.png)
+
 ## Features of the Application
 
 ### ***Goal Management***:
